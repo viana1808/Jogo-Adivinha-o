@@ -1,0 +1,27 @@
+# Jogo de Adivinhação
+# Desenvolvido em Python como primeiro projeto no GitHub.
+# O jogador deve adivinhar um número aleatório entre 1 e 3.
+# Ele tem 3 chances. Se acertar, ganha um prêmio fictício.
+
+import random
+
+def jogar():
+    print('Jogo de adivinhação *.* valendo R$ 1.000.000,00')
+    chances = 3
+
+    while chances > 0:
+        numero = int(input('Digite um número entre 1 e 3: '))
+        aleatorio = random.randint(1, 3)
+
+        if numero == aleatorio:
+            print('Você ganhou R$ 1.000.000,00! 🎉')
+            break
+        else:
+            chances -= 1
+            print('Errou feio!')
+            print(f'Você tem {chances} chances restantes.')
+    else:
+        print('Chances esgotadas! Pague mais R$ 50,00 💸')
+
+if __name__ == "__main__":
+    jogar()
