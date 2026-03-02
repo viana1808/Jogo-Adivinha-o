@@ -15,7 +15,7 @@ Utilizar laços de repetição (while)
 Trabalhar com geração de números aleatórios
 Aplicar organização básica de funções em Python
 
-- Tecnologias utilizadas
+- Tecnologias utilizadas: 
 Python
 
 📌 Observação
