@@ -1,4 +1,4 @@
---- Jogo de Adivinhação em Python ---
+-- Jogo de Adivinhação em Python --
 
 Projeto simples desenvolvido em Python com foco em prática de lógica de programação.
 
